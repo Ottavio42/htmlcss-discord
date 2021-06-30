@@ -93,3 +93,51 @@
     margin-right: 25px;
     font-size: 18px;
 }
+/* Corpo */
+section{
+    margin-top: 80px;
+    display: block;
+}
+.riga{
+    width: 80%;
+    position: relative;
+    margin: auto;
+}
+.riga img,.paragrafo{
+    float: left;
+    width: 50%;
+}
+
+.paragrafo,.paragrafo h2,.paragrafo p {
+    display: inline-block;
+}
+.paragrafo h2{
+    font-size:50px;
+    padding-top: 25px;
+}
+.paragrafo p{
+    font-size:24px;
+    margin-top: 20px;
+}
+.ultimo-p h2, .ultimo-p div,{
+    text-align: center;
+}
+.ultimo-p{
+    width: 80%;
+    margin: auto;
+}
+
+.container-img{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    height: 550px;
+}
+.container-img img{
+    position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%)
+}
+
+
