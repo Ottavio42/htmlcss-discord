@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+ /* header */
+
+ header nav{
+     width: 100%;
+    background-color: #2a5ee8;
+    padding: 20px;
+ }
+ .menu{
+     width: 80%;
+     margin: auto;
+ }
+ .logo,.login{
+    width: 15%;
+ }
+ .lista{
+     width: 70%;
+ }
+ .logo,.lista,.login{
+     float: left;
+ }
+ .link-esterni{
+     
+     border-radius: 15px;
+     padding: 10px 19px;
+     text-decoration: none;
+     font-size: 14px;
+ }
+ .link-bianco{
+    color: #000000;
+    background-color: #ffffff;
+
+ }
+ .link-nero{
+    color: #ffffff;
+    background-color: #000000;
+
+ }
+ .lista ul li{
+     display: inline-block;
+     vertical-align: middle;
+     padding-right: 30px;
+     color: #ffffff;
+     font-weight: bold;
+ }
+ .lista ul{
+     margin: auto;
+     text-align: center;
+ }
+ .hero-background{
+     position: relative;
+     height: 625px;
+     width: 100%;
+     background-image: url(../img/jumbo.png);
+     background-size: cover;
+     background-position: center center;
+ }
+ .titolo-imp{
+     font-size: 56px;
+     text-align: center;
+     color: #ffffff;
+ }
+ .testo-imp{
+     margin-top: 40px;
+     font-size: 20px;
+     text-align: center;
+     color: #ffffff;
+ }
+ .hero-corpo{
+     color: #ffffff;
+     width: 50%;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+.hero-bottoni{
+    text-align: center;
+    margin-top: 30px;
+}
+#pulsante-sin,#pulsante-des{
+    margin-right: 25px;
+    font-size: 18px;
+}
